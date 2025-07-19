@@ -35,12 +35,15 @@ modules:
       # If no repo information is specified, Flathub will be used by default
       install:
         - org.mozilla.firefox
-        - org.gnome.Loupe
-        - com.discordapp.Discord
-        - io.openrct2.OpenRCT2
+        - com.obsproject.Studio
       remove:
         #- org.gnome.eog
-    user: {} # Also add Flathub user repo, but no user packages
-
+    user: # Also add Flathub user repo, but no user packages
+      install:
+        - com.discordapp.Discord
+        - io.openrct2.OpenRCT2
+        - com.bitwarden.desktop
+        - org.prismlauncher.PrismLauncher
+        - com.stremio.Stremio
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
