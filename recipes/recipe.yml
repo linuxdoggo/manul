@@ -38,7 +38,7 @@ modules:
         - com.obsproject.Studio
       remove:
         #- org.gnome.eog
-    user: # Also add Flathub user repo, but no user packages
+    user:
       install:
         - com.discordapp.Discord
         - io.openrct2.OpenRCT2
