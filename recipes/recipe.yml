@@ -23,6 +23,9 @@ modules:
     install:
       - micro
       - starship
+      - fastfetch
+      - android-tools
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
