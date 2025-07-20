@@ -54,8 +54,6 @@ modules:
       # remove:
         #- org.gnome.eog
     user:
-      repo-name: flathub-user
-      repo-title: "Flathub (user)"
       install:
         - com.discordapp.Discord
         - io.openrct2.OpenRCT2
