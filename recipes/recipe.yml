@@ -31,7 +31,10 @@ modules:
       - f22-backgrounds-base
       - f23-backgrounds-base
       - f24-backgrounds-base
-      - @virtualization
+      - qemu-kvm
+      - libvirt-daemon-kvm
+      - libvirt-daemon-config-network
+      - virt-install
       # - steam
     remove:
       # example: removing firefox (in favor of the flatpak)
