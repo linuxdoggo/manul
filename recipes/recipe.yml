@@ -31,7 +31,7 @@ modules:
       - f22-backgrounds-base
       - f23-backgrounds-base
       - f24-backgrounds-base
-      - steam
+      # - steam
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
