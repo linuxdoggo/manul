@@ -50,7 +50,6 @@ modules:
         - com.obsproject.Studio
         - com.valvesoftware.Steam
         - org.videolan.VLC
-        - com.github.tchx84.Flatseal
       # remove:
         #- org.gnome.eog
     user:
@@ -62,6 +61,7 @@ modules:
         - com.stremio.Stremio
         - com.rawtherapee.RawTherapee
         - com.heroicgameslauncher.hgl
+        - com.github.tchx84.Flatseal
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
