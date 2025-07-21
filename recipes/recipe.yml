@@ -39,11 +39,7 @@ modules:
 
   - type: dnf
     repos:
-      nonfree:
-      - negativo17
-      - rpmfusion
-      free:
-      - rpmfusion
+      nonfree: negativo17
     install:
       packages:
       - steam
