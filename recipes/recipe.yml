@@ -42,6 +42,8 @@ modules:
       nonfree:
       - negativo17
       - rpmfusion
+      free:
+      - rpmfusion
     install:
       packages:
       - steam
