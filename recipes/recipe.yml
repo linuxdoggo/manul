@@ -23,6 +23,7 @@ modules:
       #- https://negativo17.org/repos/fedora-steam.repo
       - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
     install:
+    skip-unavailable: true
       - micro
       - starship
       - fastfetch
@@ -35,7 +36,7 @@ modules:
       - libvirt-daemon-kvm
       - libvirt-daemon-config-network
       - virt-install
-      #- steam
+      - steam
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
