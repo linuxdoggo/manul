@@ -20,8 +20,8 @@ modules:
   - type: os-release
     properties:
         ID: fedora
-        #NAME: RyeOS
-        PRETTY_NAME: RyeOS
+        NAME: RyeOS
+        PRETTY_NAME: RyeOS Kinoite
         DEFAULT_HOSTNAME: manul
 
   - type: rpm-ostree
