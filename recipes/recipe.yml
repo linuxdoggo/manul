@@ -6,7 +6,7 @@ name: manul
 description: Image based on ublue kinoite-main.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: quay.io/fedora-ostree-desktops/kinoite
 image-version: 42 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -20,9 +20,9 @@ modules:
   - type: os-release
     properties:
         ID: fedora
-        NAME: RyeOS
+        #NAME: RyeOS
         PRETTY_NAME: RyeOS
-        #DEFAULT_HOSTNAME: manul
+        DEFAULT_HOSTNAME: manul
 
   - type: rpm-ostree
     repos:
@@ -45,7 +45,7 @@ modules:
 
   - type: dnf
     repos:
-      nonfree: negativo17
+      nonfree: rpmfusion
     install:
     #skip-unavailable: true
       packages:
