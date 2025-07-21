@@ -18,11 +18,11 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: os-release
-        properties:
-            ID: fedora
-            NAME: RyeOS
-            PRETTY_NAME: RyeOS
-            DEFAULT_HOSTNAME: manul
+    properties:
+        ID: fedora
+        NAME: RyeOS
+        PRETTY_NAME: RyeOS
+        #DEFAULT_HOSTNAME: manul
 
   - type: rpm-ostree
     repos:
