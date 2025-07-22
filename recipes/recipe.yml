@@ -44,8 +44,9 @@ modules:
 
 
   - type: dnf
-    repos:
       nonfree: rpmfusion
+      files:
+      - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
     install:
     #skip-unavailable: true
       packages:
@@ -58,7 +59,7 @@ modules:
       - libvirt-daemon-config-network
       - virt-install
       - virt-manager
-      - fastfetch
+      - ublue-fastfetch
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
