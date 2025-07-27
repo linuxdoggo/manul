@@ -3,10 +3,10 @@
 # image will be published to ghcr.io/<user>/<name>
 name: manul
 # description will be included in the image's metadata
-description: Image based on ublue kinoite-main.
+description: Image based fedora atomic.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: quay.io/fedora-ostree-desktops/kinoite
+base-image: quay.io/fedora/fedora-silverblue
 image-version: 42 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -66,7 +66,7 @@ modules:
       - virt-manager
       - ublue-fastfetch
 
-  - type: default-flatpaks
+  - type: default-flatpaks@v1
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
