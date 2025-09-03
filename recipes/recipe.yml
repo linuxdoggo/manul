@@ -60,6 +60,7 @@ modules:
       - f23-backgrounds-base
       - f24-backgrounds-base
       - qemu-kvm
+      - libvirt
       - libvirt-daemon-kvm
       - libvirt-daemon-config-network
       - virt-install
