@@ -68,6 +68,7 @@ modules:
       - virt-install
       - virt-manager
       - ublue-fastfetch
+      - adw-gtk3
 
   - type: default-flatpaks@v1
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -93,6 +94,7 @@ modules:
         - com.rawtherapee.RawTherapee
         - com.heroicgameslauncher.hgl
         - com.github.tchx84.Flatseal
-
+        - io.github.fabrialberio.pinapp
+        - page.tesk.Refine
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
