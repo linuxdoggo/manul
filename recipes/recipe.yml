@@ -68,7 +68,7 @@ modules:
       - virt-install
       - virt-manager
       - ublue-fastfetch
-      - adw-gtk3
+      - adw-gtk3-theme
 
   - type: default-flatpaks@v1
     notify: true # Send notification after install/uninstall is finished (true/false)
