@@ -69,6 +69,8 @@ modules:
       - virt-manager
       - ublue-fastfetch
       - adw-gtk3-theme
+      - distrobox
+      - podman
 
   - type: default-flatpaks@v1
     notify: true # Send notification after install/uninstall is finished (true/false)
